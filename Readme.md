@@ -25,5 +25,7 @@ This public dataset is hosted in Google BigQuery and is included in BigQuery's 1
 >> git clone https://github.com/endiesworld/DE_zoomcamp_project.git
 >> sudo lsof -i :6789 <!-- To confirm that port 6789 is free on the machine you intend to run this application on-->
 >> docker stop $(docker ps -q) <!-- Only do this if another docker container is using port 6789 -->
+>> docker compose build <!-- To build the project -->
+
 
 
