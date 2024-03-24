@@ -15,17 +15,21 @@ This public dataset is hosted in Google BigQuery and is included in BigQuery's 1
 2. Reveal the to 10 most active addresses
 3. Show the monthly transction count
 
-# Running of this project
+# Running this project
 
 ## Prerequisites
 >> Install docker and docker-compose in your machine
 >> An active google cloud service account
+>> Create and download google cloud service account key to the main project directory
+
 
 ## Download and run the project
 >> git clone https://github.com/endiesworld/DE_zoomcamp_project.git
->> sudo lsof -i :6789 <!-- To confirm that port 6789 is free on the machine you intend to run this application on-->
+>> sudo lsof -i :6789 <!-- This act is to confirm that port 6789 is free on the machine you intend to run this application on-->
 >> docker stop $(docker ps -q) <!-- Only do this if another docker container is using port 6789 -->
 >> docker compose build <!-- To build the project -->
+>> Save the path to your google cloud service key as a value in the 'GOOGLE_SERVICE_ACC_KEY_FILEPATH:' in the file 'io_config.yml' in the 'magic-zoomcamp' dir.
+
 
 
 
