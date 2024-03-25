@@ -1,0 +1,1 @@
+{"status": "Int64", "block_hash": "str", "block_timestamp": "datetime64[ns, UTC]", "transaction_hash": "str", "from_address": "str", "to_address": "str", "transaction_type": "Int64"}

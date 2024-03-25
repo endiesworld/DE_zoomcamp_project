@@ -1,0 +1,1 @@
+{"Number": "int64", "Start date": "str", "Start station number": "str", "Start station": "str", "End date": "str", "End station number": "str", "End station": "str", "Bike number": "int64", "Bike model": "str", "Total duration": "str", "Total duration (ms)": "int64"}
